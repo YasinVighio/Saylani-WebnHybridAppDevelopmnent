@@ -1,0 +1,56 @@
+.services
+{
+    display: inline-block;
+    padding-bottom: 90px;
+}
+.serv-dropdown
+{
+    background-color: white;
+    width: max-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: teal;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+    z-index: 1;
+    
+}
+
+.serv-dropdown>ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2px;
+}
+.serv-dropdown li{
+    margin: 2px;
+    width: 200px;
+}
+
+.serv-dropdownbt:hover + .serv-dropdown
+{
+    display: block;
+}
+.services:hover>.serv-dropdown
+{
+    display: block;
+}
+.serv:hover>.serv-dropdownbt
+{
+    background-color: blue;
+    color: white;
+}
+.serv-dropdown li:hover
+{
+    border-radius: 0px !important;
+    text-indent: 5px;
+}
+
+.fa-angle-right
+{
+float: right;
+margin-top: 5px;
+}

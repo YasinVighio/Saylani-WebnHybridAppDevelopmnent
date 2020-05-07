@@ -1,0 +1,30 @@
+body
+{
+    text-align: center;
+}
+span
+{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+form
+{
+margin-top: 40px;
+padding: 1px;
+background-color: rgb(107, 90, 205);
+text-align: left;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label
+{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+th {
+    overflow: visible;
+    white-space: nowrap;
+   }

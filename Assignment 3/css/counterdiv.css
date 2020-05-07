@@ -1,0 +1,30 @@
+.counter
+{
+    background-color: blue;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.counter p
+{
+    width: 330px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.counter-info
+{
+    font-size: 20px;
+}
+
+.counter img
+{
+    width: 50px;
+    height: 50px;
+}

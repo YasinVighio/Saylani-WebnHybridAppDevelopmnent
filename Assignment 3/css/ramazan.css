@@ -1,0 +1,25 @@
+.ramzan-donation-menu
+{
+    position: absolute;
+    top:70%;
+    left: 100%;
+    width: max-content;
+    height: max-content;
+    display: none;
+    z-index: 1;
+}
+.ramzan-donation-menu>ul
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    background-color: white;
+}
+.ramzan-donation-menu:hover
+{
+    display: block;
+}
+.ramzandonationbt:hover + .ramzan-donation-menu
+{
+    display: block;
+}

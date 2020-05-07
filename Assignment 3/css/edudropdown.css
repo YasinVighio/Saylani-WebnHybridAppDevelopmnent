@@ -1,0 +1,26 @@
+.edu-menu
+{
+    position: absolute;
+    top:0%;
+    left: 100%;
+    width: max-content;
+    height: max-content;
+    display: none;
+    z-index: 1;
+    background-color: white;
+}
+
+
+.edu-menu>ul
+{
+    display: flex;
+    flex-direction: column;
+}
+.edu-menu:hover
+{
+    display: block;
+}
+.edudrpbtn:hover + .edu-menu
+{
+    display: block;
+}

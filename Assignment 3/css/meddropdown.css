@@ -1,0 +1,29 @@
+.medmenu
+{
+    position: absolute;
+    top:8%;
+    left: 100%;
+    width: max-content;
+    height: max-content;
+    display: none;
+    z-index: 1;
+    background-color: white;
+}
+.medmenu>ul
+{
+    display: flex;
+    flex-direction: column;
+}
+.medmenu-li1
+{
+
+    width: 300px !important;
+}
+.medmenu:hover
+{
+    display: block;
+}
+.medbt:hover + .medmenu
+{
+    display: block;
+}

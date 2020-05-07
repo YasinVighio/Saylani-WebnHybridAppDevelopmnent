@@ -1,0 +1,26 @@
+.welfaremenu
+{
+    position: absolute;
+    top:16%;
+    left: 100%;
+    width: max-content;
+    height: max-content;
+    display: none;
+    z-index: 1;
+    background-color: white;
+}
+.welfaremenu>ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.welfaremenu:hover
+{
+    display: block;
+}
+.welfbt:hover + .welfaremenu
+{
+    display: block;
+}

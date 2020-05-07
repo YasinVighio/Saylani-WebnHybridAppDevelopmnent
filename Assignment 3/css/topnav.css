@@ -1,0 +1,52 @@
+.top_nav
+{
+color: white;
+background-color: #316DC3;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.tn-d1, .tn-d2, .tn-d3
+{
+    margin-top: 15px;
+}
+
+.whatsapp_icon
+{
+    font-size: 20px;
+    background-color: rgb(77, 165, 77);
+    border-radius: 2px;
+}
+
+.top_nav ul
+{
+    list-style: none;
+}
+.top_nav li
+{
+    margin: 5px;
+    display: inline;
+
+}
+
+.top_nav a
+{
+    padding: 10px;
+    color: white;
+}
+.top_nav a:hover{
+    background-color: blueviolet;
+}
+
+
+.tn-d3>button
+{
+    height: 30px;
+    border: 1px solid red;
+    color: red;
+    background-color: whitesmoke;
+    font-size: 12px;
+}

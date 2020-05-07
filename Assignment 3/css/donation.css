@@ -1,0 +1,48 @@
+.donationdd
+{
+    display: inline-block;
+    padding-bottom: 150px;
+    z-index: 1;
+    
+}
+.donation-menu
+{
+    background-color: white;
+    width: max-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: teal;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+    z-index: 1;
+
+}
+
+.donation-menu>ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2px;
+
+}
+.donation-menu li{
+    margin: 2px;
+    width: 150px;
+}
+
+.donationbt:hover + .donation-menu
+{
+    display: block;
+}
+.donationdd:hover>.donation-menu
+{
+    display: block;
+}
+.donation-menu li:hover
+{
+    border-radius: 0px !important;
+    text-indent: 5px;
+}

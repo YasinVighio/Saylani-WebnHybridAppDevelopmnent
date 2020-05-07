@@ -1,0 +1,77 @@
+.navbar-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f7f8fa;
+    height: 80px;
+    z-index: 1;
+}
+
+.navbar-2 ul{
+    padding-left: 1px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+.menubar{
+    display: none;
+    position: relative;
+    top: 25%;
+    right: 15%;
+    
+}
+
+
+
+.homebt
+{
+    background-color: blue !important;
+    color: white;
+    padding: 8px;
+    width: 70px;
+    border-radius: 25px;
+    text-align: center;
+}
+.nav-list > ul
+{
+    margin-top: 10px;
+    list-style: none;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+
+.nav-list li:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+.logo
+{
+    position: relative;
+    top: 5%;
+}
+
+/*Changing menu to icon after reducing screen size*/
+
+@media only screen and (max-width: 1000px)
+{
+    .menubar{
+        display: inline-block;
+    }
+    .nav-list > ul
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,64 @@
+.contact{
+    background-color: darkslategray;
+    color: #bbb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.contact ul
+{
+    padding: 0px;
+    list-style: none;
+}
+.contact i{
+    color: orangered;
+}
+.links
+{
+    color: white;
+}
+.contact hr
+{
+    background-color: red;
+    height: 1px;
+    width: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.links>.hr2
+{
+    background-color: whitesmoke !important;
+    width: 200px !important;
+    margin: 0px !important;
+}
+.social-links i
+{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 25px;;
+}
+.social-links h5
+{
+    color: white;
+}
+
+.social-links li
+{
+    margin: 10px;
+    display: inline-block;
+}
+
+.copyright
+{
+    background-color: blueviolet;
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+    padding-left: 50px;
+    margin-bottom: 0px;
+}

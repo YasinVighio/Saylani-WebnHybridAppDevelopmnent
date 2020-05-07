@@ -1,0 +1,25 @@
+.smtmenu
+{
+    position: absolute;
+    top:0%;
+    left: 80%;
+    width: max-content;
+    height: max-content;
+    display: none;
+    z-index: 1;
+    background-color: white;
+}
+
+.smtmenu>ul
+{
+    display: flex;
+    flex-direction: column;
+}
+.smtmenu:hover
+{
+    display: block;
+}
+.smtbt:hover + .smtmenu
+{
+    display: block;
+}

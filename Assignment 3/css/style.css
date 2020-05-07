@@ -1,0 +1,28 @@
+@import "topnav.css"; /*Importing top most navigation bar css */
+@import "secondnav.css"; /*Importing second navigation bar (fixed scroll header) css */
+@import "abtdropdown.css"; /*Importing about drop menu in fixed scroll header css */
+@import "servicesdropdown.css"; /*Importing services drop menu in fixed scroll header css */
+@import "edudropdown.css"; /*Importing education drop menu in saylani services css */
+@import "smtdropdown.css"; /*Importing smt drop menu in education drop down in saylani services css */
+@import "meddropdown.css"; /*Importing medical drop menu in saylani services css */
+@import "welfaremenu.css"; /*Importing welfare drop menu in saylani services css */
+@import "quranacademydropdown.css"; /*Importing welfare drop menu in saylani services css */
+@import "futureprojectdd.css"; /*Importing future project drop menu in fixed scroll header css */
+@import "donation.css"; /*Importing future project drop menu in fixed scroll header css */
+@import "ramazan.css"; /*Importing ramzan-2020 drop menu in donation css */
+@import "aboutsection.css"; 
+@import "counterdiv.css";
+@import "wwrd.css"; /*Importing what we are doing section*/
+@import "mission.css"; /*Importing mission section */
+@import "contact.css"; /*conatct us section*/
+body
+{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.carousel-control-next
+{
+    z-index: 0;
+}
+

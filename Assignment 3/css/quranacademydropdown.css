@@ -1,0 +1,26 @@
+.quran-academymenu
+{
+    position: absolute;
+    top:75%;
+    left: 100%;
+    width: max-content;
+    height: max-content;
+    display: none;
+    z-index: 1;
+    background-color: white;
+}
+
+
+.quran-academymenu>ul
+{
+    display: flex;
+    flex-direction: column;
+}
+.quran-academymenu:hover
+{
+    display: block;
+}
+.quran-academybt:hover + .quran-academymenu
+{
+    display: block;
+}

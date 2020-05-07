@@ -1,0 +1,43 @@
+.fpdd
+{
+    display: inline-block;
+    padding-bottom: 90px;
+}
+.fpmenu
+{
+    background-color: white;
+    width: max-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: teal;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.fpmenu>ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2px;
+}
+.fpmenu li{
+    margin: 2px;
+}
+
+.fpbt:hover + .fpmenu
+{
+    display: block;
+}
+.fpdd:hover>.fpmenu
+{
+    display: block;
+}
+.fpmenu li:hover
+{
+    border-radius: 0px !important;
+    text-indent: 5px;
+}
